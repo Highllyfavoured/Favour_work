@@ -1,0 +1,12 @@
+# Task2: Super Market Price List
+rice = input("price for rice")
+beans = input("price for beans")
+garri = input("price for garri")
+items = dict(rice=(rice), beans=(beans), garri=(garri))
+print(items)
+rice2 = input("updated price")
+beans2 = input("updated price")
+garri2 = input("updated price")
+update = (rice2, beans2, garri2)
+items.update(rice=(rice2), beans=(beans2), garri=(garri2))
+print(items)

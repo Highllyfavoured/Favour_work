@@ -1,0 +1,11 @@
+# Task3: Tuple Operation
+state1 = input("name of state1")
+state2 = input("name of state2")
+state3 = input("name of state3")
+state4 = input("name of state4")
+state5 = input("name of state5")
+membership = (state1, state2, state3, state4, state5)
+print(membership[0])
+print(membership[-1])
+print("lagos" in membership)
+print(len(membership))

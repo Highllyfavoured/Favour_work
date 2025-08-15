@@ -1,0 +1,12 @@
+# Task1: Student Bio Data Storage
+name = input("name")
+age = input("age")
+gender = input("gender")
+course = input("course")
+value =dict(name=(name), age=(age), gender=(gender), course=(course))
+print(value)
+print("\n\t--- value ---")
+print(f"\tname:\t\t{value['name']}")
+print(f"\tage:\t\t{value['age']}")
+print(f"\tgender:\t\t{value['gender']}")
+print(f"\tcourse:\t\t{value['course']}")
